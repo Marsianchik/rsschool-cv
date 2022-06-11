@@ -1,6 +1,6 @@
 # * ***Elena Kryuchkova***
 ### * *elena_uriz@mail.ru*
-### * *nope*
+### * *it is*
 ### * *nope*
 ### * *nope*
 ### * *nope*
