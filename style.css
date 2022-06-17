@@ -1,2 +1,70 @@
+*.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:aqua;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none
+}
+main{
+    display:grid;
+    grid-template-columns: 40% 1fr;   
+}
+.contacts, .skills, .courses{
+    padding: 1rem;
+}
+.left-image{
+    position: relative;
+}
+.left-image h1{
+position: absolute;
+bottom: 0;
+left: 1 rem;
+color:bisque;
+}
+.right{
+    position:absolute;
+left:500px;
+top: 490px;
+width: 100%
 
-.left-imag
+}
+footer {
+    background-color:aquamarine;
+    padding: 5 rem;
+    text-align:center;
+}
+.year {
+    line-height: 45px;
+    position: relative;
+    padding: 0 12px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.rsschool {
+  width: 120px;
+  height: auto;
+  display: right;
+  justify-content: center;
+  box-sizing: border-box;
+  float: right;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;  
+}
+.github {
+    padding: 0 20px;
+line-height: 50px;
+font-size: 25px; 
+text-decoration: none;
+transition: 1s;
+}
+.github:hover {
+    color: #ffe;
+    background-color: #B8860B;
+    }
+
