@@ -1,94 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com">  
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">  
-<title>cv</title>
+  <meta charset="UTF-8">
+  <title>cv</title>
+  <link rel="icon" href="./assets/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-  <main>
-<section class="left">
-    <div class="left-image">
-        <img width="400" height="500" src="Image/Myphoto.jpg" alt="my face" class="photo">
-        <h1>Helen Kruchkova</h1>
+  <header class="header">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav-list">          
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>          
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        </ul>
+      </nav>
+      <div class="toggle">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
     </div>
-    <div class="CONTACTS">
-      <h2>CONTACTS</h2>
-      <ul>
-        <li>Belarus, Gomel</li>
-        <li>Github: Marsianchik</li>
-        <li>Email:elena_uriz@mail.ru</li>
-        <li>Discord:Elena-ur #2030</li>
-        <li>Phone number: +375291162241</li>
-      </ul>
-        <hr>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section section-profile" id="profile">
+        <img src="Image/Myphoto.jpg"  alt="" class="section-profile-logo">
+        <div class="section-profile-title">
+          <h1 class="section-title main-title">Helen Kruchkova</h1>
+          <h3 class="section-subtitle">Junior Front-End Developer</h3>
+        </div>        
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-item">
+            Gomel, Belarus
+          </li>
+          <li class="section-item contacts-item">
+            Email: <a href="mailto:elena_uriz@mail.ru" title="email">elena_uriz@mail.ru</a>
+          </li>
+          <li class="section-item contacts-item">
+            Github: <a href="https://github.com/Marsianchik" title="github">Marsianchik</a>
+          </li>
+          <li class="section-item contacts-item">
+            Telegram: <a href="https://t.me/elena_uriz" title="telegram">@elena_uriz</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>
+          I like programming. It is interesting. I have a main job, prrogramming is a hobby for me. But I would like to change my work  
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="section-list">
+          <li class="section-item">
+             HTML and CSS
+          </li>
+          <li class="section-item">
+            Languages: <span>English (C2)</span>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        function greet () { <br>
+            return 'hello world!';<br>
+            };
+      </section>
+      <section class="section" id="experience">
+        <h2 class="section-title">Projects</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            Hexal
+            <br>
+          </li>
+          <li class="section-item">
+             Presentation
+              <br>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            JS/FE Pre-School 2022Q2 - <span>RS School</span>
+          <li class="section-item">
+            Belarusian State Pedagogical University named after Maxim Tank
+          </li>
+        </ul>
+      </section>
+      
     </div>
-    <div class="skills">
-      <h2> SKILLS </h2>
-      <ul>
-        <li><p>Web-development:<b>HTML5, CSS3, JavaScript</b></p> <p class=hexlet title="20%"><progress max="100" value="20"></progress> </p> </li>
-        <li><p>Frameworks and libraries: <b>Nope</b></p>  <p class=hexlet title="0%"><progress max="100" value="0"></progress> </p> </li>
-        <li><p>Version control</p> <b>Github, GIT</b> <p class=hexlet title="20%"><progress max="100" value="20"></progress> </p> </li>
-        <li><p>Graphics: <b>Figma</b> </p> <p class=hexlet title="0%"><progress max="100" value="0"></progress> </p> </li>
-      </ul>
-      <hr>
-    </div>
-    <div class="courses">
-      <h2>COURSES</h2>
-      <ul>
-        <li> Rolling stone: <b>JavaScript</b></li>
-      </ul>
-      <hr>
-    </div>
-    
-</section>
-<section class="right">
-  <div class="education">
-    <h2>EDUCATION</h2>
-    <ul>
-      <li>Belarusian State Pedagogical University named after Maxim Tank </li>
-    </ul>
-    <hr>
-  </div>
-  <div class="summary">
-    <h2>SUMMARY</h2>
-    <p>I like programming. It is interesting. I have a main job, prrogramming is a hobby for me. But I would like to change my work</p>
-    <hr>
-  </div>
-  <div class="code">
-    <h2>CODE</h2>
-    <p>ublic class Multiply {
-      public static Double multiply(Double a, Double b) {
-          return a * b}
-      </p>
-    <hr>
-  </div>
-  <div class="projects">
-    <h2>PROJECTS</h2>
-    <ul>
-      <li>Presentation</li>
-    </ul>
-    <hr>
-  </div>
-  <div class="english">
-    <h2>ENGLISH</h2>
-    <p>A2-Pre-Intermediate</p>
-  </div>
-</section>
-</main> 
-<footer class="cvfooter">
-  <div class="chest">
-    <div class="footer-left">
-      <span class="year">2022</span>
-      <a href="https://github.com/Marsianchik" class="github">Marsianchik</a>
-      <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="school" class="rsschool"></a> 
-    </div>
-  </div>
-</footer>
+  </main>
+  <footer class="footer">
+      <div class="chest">
+        <div class="footer-left">
+          <span class="year">2022</span>
+     <a href="https://github.com/Marsianchik">Marsianchik</a>
+                 <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rsschool"> </a>
+                </div>
+      </div>
+  </footer>
+  
+
 </body>
+
 </html>
